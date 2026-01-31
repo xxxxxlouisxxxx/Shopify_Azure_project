@@ -169,8 +169,6 @@
 			{
 				"name": "update_last_cdc",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Max_cdc",
@@ -194,7 +192,7 @@
 							{
 								"name": "cdc",
 								"value": {
-									"value": "trhttht",
+									"value": "@activity('Max_cdc').output.resultSets[0].raws[0].cdc",
 									"type": "Expression"
 								}
 							}
