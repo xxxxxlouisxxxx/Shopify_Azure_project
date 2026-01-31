@@ -1,0 +1,9 @@
+{
+	"name": "DF-louisxxxxproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f56b713d-f415-4c93-bd94-27c0cca49866",
+		"tenantId": "238b18f5-330f-466d-b4f6-21c3b5993871"
+	}
+}
